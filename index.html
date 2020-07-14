@@ -6,6 +6,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,14 +17,81 @@
 </head>
 
 <body>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
-    <h1>Our Skincare analyzer is
-        <span class="txt-rotate" data-period="2000"
-            data-rotate='[ "intelligent", "simple", "smart", "pretty", "fun!" ]'></span>
-    </h1>
-    <!-- <h2>A single &lt;span&gt; is all you need.</h2> -->
+    <div class="container-fluid">
+        <div class="top-container">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top header" id="myHeader">
+                <div class="container">
+                    <a class="navbar-brand" href="#" id="logo-link"><img src="./assets/images/Dr.Miracle.svg"
+                            id="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"
+                        id="nav-toggler">
+                        <span class="navbar-toggler-icon" id="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ml-auto">
 
+                            <li class="nav-item">
+                                <a class="nav-link top-link" href="./about.html">About
+                                    <!-- <span class="sr-only">(current)</span> -->
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link top-link" href="./contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <a class="nav-link top-link" href="#"><button class="btn top-btn">Subscribe</button></a>
+                    </div>
+                </div>
+            </nav>
+            <div id="main-container">
+                <div class="container">
+                    <div class="row pt-5">
+                        <div class="col-md-7">
+                            <h1>Solve your Skin Problems with
+                                <span class="txt-rotate" data-period="2000"
+                                    data-rotate='[ "a Selfie.", "just a Click.", "Dr Miracle!"]'></span>
+                            </h1>
+                            <!-- <h2>A single &lt;span&gt; is all you need.</h2> -->
+                            <p>Coming soon on</p>
+                            <div class="d-flex">
+                                <div>
+                                    <img src="./assets/images/iphone-google-play-app-store-apple-mobile-apple-store-and-google-play-logo-png-clip-art-thumbnail 1.png"
+                                        alt=""></div>
+                                <div class="pl-3">
+                                    <img src="./assets/images/iphone-google-play-app-store-apple-mobile-apple-store-and-google-play-logo-png-clip-art-thumbnail 2.png"
+                                        alt=""></div>
+                            </div>
+                            <p class="pt-5 pb-4">Subcribe to get a notifcation when App is out.</p>
+
+                            <form class="form-inline">
+                                <div class="form-group mr-sm-3 mb-2">
+                                    <label for="inputPassword2" class="sr-only">email</label>
+                                    <input type="email" class="form-control" id="inputemail2" placeholder="Email">
+                                </div>
+                                <button type="submit" class="btn top-btn mb-2">Subscribe</button>
+                            </form>
+
+                        </div>
+                        <div class="col-md-5">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
     <script src="./assets/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 
 </body>
 
