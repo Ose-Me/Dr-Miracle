@@ -33,7 +33,7 @@ body {
 }
 
 .sticky {
-  background-color: rgba(255, 206, 214, 1);
+  background-color: rgba(255, 206, 214, 0.6);
 }
 
 .navbar {
@@ -93,9 +93,55 @@ body {
   font-weight: 300;
 }
 
+.subscribe-text {
+  margin-top: 10px;
+}
+
 @media only screen and (max-width: 1024px) {
   .top-container h1 {
     font-size: 2.3rem;
     line-height: 60px;
+  }
+
+  .left-showcase {
+    width: 50%;
+    height: auto;
+  }
+
+  .subscribe-text {
+    margin-top: 0;
+    /* margin-bottom: 0; */
+  }
+
+  #mockup1 {
+    margin-top: -18rem;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .top-container h1 {
+    font-size: 1.5rem;
+    line-height: 50px;
+  }
+
+  .subscribe-text {
+    font-size: 0.9rem;
+    margin-top: 30px;
+  }
+  #mockup1 {
+    margin-top: -15rem;
+    width: 250px;
+  }
+
+  .top-btn {
+    z-index: 3;
+    font-size: 16px;
+    padding: 0.4rem 3.7rem;
+  }
+
+  .form-control {
+    font-size: 16px;
+    margin-bottom: 0.7rem;
   }
 }
