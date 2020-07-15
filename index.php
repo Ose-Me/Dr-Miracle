@@ -63,12 +63,12 @@
                                     <img src="./assets/images/iphone-google-play-app-store-apple-mobile-apple-store-and-google-play-logo-png-clip-art-thumbnail 2.png"
                                         alt=""></div>
                             </div>
-                            <p class="pt-lg-3 pb-lg-3 subscribe-text">Subcribe to get a notifcation when we go live.</p>
+                            <p class="pt-lg-4 pb-lg-2 subscribe-text">Subcribe to get a notifcation when we go live.</p>
 
-                            <form class="form-inline">
+                            <form class="form-inline" method="post" action="process.php">
                                 <div class="form-group mr-sm-3">
-                                    <label for="inputEmail2" class="sr-only">email</label>
-                                    <input type="email" class="form-control" id="inputEmail2" placeholder="Email">
+                                    <label for="email" class="sr-only">email</label>
+                                    <input type="email" name="email" class="form-control" id="email" placeholder="Email">
                                 </div>
                                 <button type="submit" class="btn top-btn">Subscribe</button>
                             </form>
