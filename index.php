@@ -56,12 +56,12 @@ $conn = null;
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
-        <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
-  
+
 </head>
 
 <body>
@@ -116,8 +116,8 @@ $conn = null;
                             <form class="form-inline" method="post" action="index.php">
                                 <div class="form-group mr-sm-3">
                                     <label for="email" class="sr-only">email</label>
-                                    <input type="email" name="email" class="form-control" id="email"
-                                        placeholder="Email" required>
+                                    <input type="email" name="email" class="form-control" id="email" placeholder="Email"
+                                        required>
                                 </div>
                                 <button type="submit" class="btn top-btn">Subscribe</button>
                             </form>
@@ -137,7 +137,8 @@ $conn = null;
         <div class="row">
             <div class="col-md-8 d-flex align-items-center">
                 <div>
-                    <p class="pb-md-3">Dr. Miracle will scan your face by taking a photo and then provide a diagnosis
+                    <p class="pb-md-3 pt-md-3">Dr. Miracle will scan your face by taking a photo and then provide a
+                        diagnosis
                         of the skin ailments present. Recommended products will then be prescibed for
                         each ailment present, along with a redirection to online stores where they can be
                         purchased. Dr Miracle also provides a Medication Tracker.</p>
@@ -145,8 +146,8 @@ $conn = null;
                 </div>
             </div>
             <div class="col-md-4 p-md-0 d-flex justify-content-center">
-                <img class="hover-shadow" data-aos="fade-left" src="./assets/images/smartmockups_kcltm3aa 1.png"
-                    alt="app-screen" id="mockup1" onclick="openModal();currentSlide(1)">
+                <img class="hover-shadow" data-aos="fade-left" src="./assets/images/mockup1.png" alt="app-screen"
+                    id="mockup1" onclick="openModal();currentSlide(1)">
             </div>
         </div>
     </div>
@@ -162,20 +163,18 @@ $conn = null;
             </div>
 
             <div class="d-md-flex img-column column-1">
-                <img class="mockup-img hover-shadow" data-aos="fade-right"
-                    src="./assets/images/smartmockups_kcltm3aa 1.png" alt="screen2" id="mockup2"
-                    onclick="openModal();currentSlide(2)">
-                <p class="mt-5 pt-5">Dr. Miracle will now give you product recommendations for each ailment.</p>
+                <img class="mockup-img hover-shadow" data-aos="fade-right" src="./assets/images/mockup2.png"
+                    alt="screen2" id="mockup2" onclick="openModal();currentSlide(2)">
+                <p class="mt-5 pt-5 pr-2"><b>Dr. Miracle</b> will do a quick scan of
+                    your face.</p>
             </div>
 
             <div class="d-md-flex img-column column-2">
-                <img class="mockup-img hover-shadow" data-aos="fade-up"
-                    src="./assets/images/smartmockups_kcltm3aa 1.png" alt="screen3" id="mockup3"
-                    onclick="openModal();currentSlide(3)">
-                <p class="mt-5 pt-5">Dr. Miracle will also track the usage
-                    of every skincare product you register
-                    into the App. A daily reminder to use
-                    every product.</p>
+                <img class="mockup-img hover-shadow" data-aos="fade-up" src="./assets/images/mockup3.png" alt="screen3"
+                    id="mockup3" onclick="openModal();currentSlide(3)">
+                <p class="mt-5 pt-5 pr-2"><b>Dr. Miracle</b> gives you a diagnosis
+                    of your face with the degree of the
+                    skin ailment present.</p>
             </div>
         </div>
     </div>
@@ -190,19 +189,18 @@ $conn = null;
             </div>
 
             <div class="d-md-flex img-column column-3">
-                <p class="mt-5 pt-5">Dr. Miracle will now give you product recommendations for each ailment.</p>
-                <img class="mockup-img hover-shadow" data-aos="fade-left"
-                    src="./assets/images/smartmockups_kcltm3aa 1.png" alt="screen2" id="mockup4"
-                    onclick="openModal();currentSlide(4)">
+                <p class="mt-5 pt-5 pl-2"><b>Dr. Miracle</b> will now give you product
+                    recommendations for each ailment.</p>
+                <img class="mockup-img hover-shadow" data-aos="fade-left" src="./assets/images/mockup4.png"
+                    alt="screen2" id="mockup4" onclick="openModal();currentSlide(4)">
             </div>
 
             <div class="d-md-flex img-column column-4">
-                <p class="mt-5 pt-5">Dr. Miracle will also track the usage
+                <p class="mt-5 pt-5 pl-2"><b>Dr. Miracle</b> will also track the usage
                     of every skincare product you register
-                    into the App. A daily reminder to use
-                    every product.</p><img class="mockup-img hover-shadow" data-aos="fade-up"
-                    src="./assets/images/smartmockups_kcltm3aa 1.png" alt="screen3" id="mockup5"
-                    onclick="openModal();currentSlide(5)">
+                    into the App. A daily routine will be
+                    designed for each product’s dosage.</p><img class="mockup-img hover-shadow" data-aos="fade-up"
+                    src="./assets/images/mockup5.png" alt="screen3" id="mockup5" onclick="openModal();currentSlide(5)">
 
             </div>
         </div>
@@ -212,12 +210,11 @@ $conn = null;
     <div class="container">
         <div id="fourth">
             <div class="pt-5 d-flex img-column justify-content-end align-items-center">
-                <img src="./assets/images/smartmockups_kcltm3aa 1.png" alt="screen 6" class="mockup-img hover-shadow"
-                    id="mockup6" data-aos="fade-right" onclick="openModal();currentSlide(6)">
-                <p>Dr. Miracle will also track the usage
-                    of every skincare product you register
-                    into the App. A daily reminder to use
-                    every product.</p>
+                <img src="./assets/images/mockup6.png" alt="screen 6" class="mockup-img hover-shadow" id="mockup6"
+                    data-aos="fade-right" onclick="openModal();currentSlide(6)">
+                <p><b>Dr. Miracle</b> provides a progress report for
+                    the treatment of any ailment registered in
+                    the app with the aid of illustration and graphs.</p>
             </div>
         </div>
     </div>
@@ -225,7 +222,6 @@ $conn = null;
     <!-- fifth section -->
     <div class="container-fluid">
         <div class="d-flex justify-content-end align-items-center" id="girl">
-            <h3 class="px-md-5 mr-md-5">15 Days till Launch!!</h3>
             <div class="pl-md-5">
                 <p>Subcribe to get a notification when we go Live.</p>
                 <form class="form-inline" method="post" action="index.php">
@@ -248,32 +244,32 @@ $conn = null;
 
             <div class="mySlides">
                 <div class="numbertext">1 / 6</div>
-                <img src="./assets/images/smartmockups_kcltm3aa 1.png" style="width:320px">
+                <img src="./assets/images/mockup1.png" style="width:320px">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">2 / 6</div>
-                <img src="./assets/images/smartmockups_kcltm3aa 1.png" style="width:320px">
+                <img src="./assets/images/mockup2.png" style="width:320px">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">3 / 6</div>
-                <img src="./assets/images/smartmockups_kcltm3aa 1.png" style="width:320px">
+                <img src="./assets/images/mockup3.png" style="width:320px">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">4 / 6</div>
-                <img src="./assets/images/smartmockups_kcltm3aa 1.png" style="width:320px">
+                <img src="./assets/images/mockup4.png" style="width:320px">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">5 / 6</div>
-                <img src="./assets/images/smartmockups_kcltm3aa 1.png" style="width:320px">
+                <img src="./assets/images/mockup5.png" style="width:320px">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">6 / 6</div>
-                <img src="./assets/images/smartmockups_kcltm3aa 1.png" style="width:320px">
+                <img src="./assets/images/mockup6.png" style="width:320px">
             </div>
 
 
@@ -292,10 +288,8 @@ $conn = null;
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script
-  src="https://code.jquery.com/jquery-3.5.1.min.js"
-  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="./assets/js/custom.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
@@ -304,22 +298,23 @@ $conn = null;
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-    
+
 
     <script>
-        console.log('<?php echo $_SERVER['REMOTE_ADDR'] ?>')
-    // Display a success toast, with a title
-    if('<?php echo $success ?>'){
-    toastr.success('<?php echo $success ?>')
-}
-    // Display an error toast, with a title
-    if('<?php echo $error ?>'){
-    toastr.error('<?php echo $error ?>')
-}
+        console.log('<?php echo $_SERVER['
+            REMOTE_ADDR '] ?>')
+        // Display a success toast, with a title
+        if ('<?php echo $success ?>') {
+            toastr.success('<?php echo $success ?>')
+        }
+        // Display an error toast, with a title
+        if ('<?php echo $error ?>') {
+            toastr.error('<?php echo $error ?>')
+        }
 
-if ( window.history.replaceState ) {
-  window.history.replaceState( null, null, window.location.href );
-}
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, window.location.href);
+        }
     </script>
 </body>
 

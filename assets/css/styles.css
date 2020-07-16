@@ -183,6 +183,8 @@ body {
 
 #footer {
   background-color: #ffe6ea;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 /* lightbox */
@@ -333,6 +335,10 @@ img.hover-shadow {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
   .navbar-light .navbar-toggler {
     border: none;
   }
@@ -344,6 +350,11 @@ img.hover-shadow {
   .top-container h1 {
     font-size: 1.5rem;
     line-height: 50px;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 0.5rem 0;
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -396,7 +407,25 @@ img.hover-shadow {
   .column-3,
   .column-4 {
     position: relative;
+  }
+
+  .column-1 {
     left: 0;
+  }
+
+  .column-2 {
+    top: 0;
+    left: 0;
+  }
+
+  .column-3 {
+    right: 0;
+  }
+
+  .column-4 {
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 
   .flower,
@@ -410,5 +439,10 @@ img.hover-shadow {
 
   .img-column p {
     width: 100%;
+  }
+
+  .form-control {
+    font-size: 16px;
+    margin-bottom: 0.7rem;
   }
 }
