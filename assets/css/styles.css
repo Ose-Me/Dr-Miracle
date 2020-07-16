@@ -24,7 +24,7 @@ body {
 }
 
 .top-container {
-  background-color: rgba(255, 206, 214, 0.51);
+  background-color: #ffc9af;
   height: 100vh;
 }
 
@@ -34,7 +34,7 @@ body {
 
 .navbar,
 .sticky {
-  background-color: #ffe6ea;
+  background-color: #ffc9af;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -128,7 +128,7 @@ body {
   position: absolute;
   z-index: -2;
   bottom: 10%;
-  background-color: #ffe6ea;
+  background-color: #ffc9af;
   height: 700px;
   width: 600px;
 }
@@ -162,7 +162,7 @@ body {
   z-index: -2;
   bottom: 10%;
   right: 0;
-  background-color: #ffe6ea;
+  background-color: #ffc9af;
   height: 700px;
   width: 600px;
 }
@@ -182,7 +182,7 @@ body {
 }
 
 #footer {
-  background-color: #ffe6ea;
+  background-color: #ffc9af;
   font-size: 16px;
   font-weight: 600;
 }
