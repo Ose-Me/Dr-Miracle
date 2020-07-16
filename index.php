@@ -1,16 +1,33 @@
 <?php
 $success ='';
 $error = '';
-$servername='localhost';
-$username='root';
-$password='';
-$dbname = "drmiracle";
+$whitelist = [
+    '127.0.0.1',
+    '::1'
+];
+
+if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)){
+    // remote
+    $connection= 'pgsql';
+    $servername='ec2-54-81-37-115.compute-1.amazonaws.com';
+    $username='hkbmzflolqzkmz';
+    $password='3eab462058347b2d00f9e48b10e1b4dd3d81036e282dd3c4e7da9771f7b0c2d2';
+    $dbname = "dfemio4u88tjeb";
+} else { 
+   //localhost 
+    $connection= 'mysql';
+    $servername='localhost';
+    $username='root';
+    $password='';
+    $dbname = "drmiracle";
+}
+
 if($_SERVER['REQUEST_METHOD'] === 'POST' && $_POST['email']) {
     try   {
         $email = $_POST['email'];
         date_default_timezone_set("Africa/Lagos");
         $insertdate = date("Y-m-d H:i:s");
-        $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+        $conn = new PDO("$connection:host=$servername;dbname=$dbname", $username, $password);
         /* set the PDO error mode to exception */
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $sql = "INSERT INTO subscribers (email)
@@ -20,6 +37,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST' && $_POST['email']) {
     } 
     catch(PDOException $e) {
         $error= $sql . "<br>" . $e->getMessage();
+        
     }
 }
 $conn = null;
@@ -289,7 +307,7 @@ $conn = null;
     
 
     <script>
-        console.log('<?php echo $success ?>')
+        console.log('<?php echo $_SERVER['REMOTE_ADDR'] ?>')
     // Display a success toast, with a title
     if('<?php echo $success ?>'){
     toastr.success('<?php echo $success ?>')
