@@ -316,6 +316,10 @@ $conn = null;
     if('<?php echo $error ?>'){
     toastr.error('<?php echo $error ?>')
 }
+
+if ( window.history.replaceState ) {
+  window.history.replaceState( null, null, window.location.href );
+}
     </script>
 </body>
 
