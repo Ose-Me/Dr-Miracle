@@ -142,7 +142,7 @@ $conn = null;
                         of the skin ailments present. Recommended products will then be prescibed for
                         each ailment present, along with a redirection to online stores where they can be
                         purchased. Dr Miracle also provides a Medication Tracker.</p>
-                    <button type="submit" class="btn top-btn">Subscribe</button>
+                   <a href="#girl"><button type="submit" class="btn top-btn">Subscribe</button></a> 
                 </div>
             </div>
             <div class="col-md-4 p-md-0 d-flex justify-content-center">

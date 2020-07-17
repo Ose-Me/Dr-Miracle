@@ -454,18 +454,14 @@ img.hover-shadow {
     display: none;
   }
 
-  .left-showcase {
-    display: none;
-  }
-
   .img-column p {
     width: 100%;
   }
 
   .form-control {
-    margin-bottom: 0.7rem;
-    width: 250px;
-    padding: 0.5rem 0.65rem;
+    margin-bottom: 0;
+    width: 200px;
+    padding: 0.3rem 0.65rem;
   }
 
   #girl img {
@@ -482,7 +478,11 @@ img.hover-shadow {
   }
 
   .btn:not(:disabled):not(.disabled) {
-    width: 250px;
+    width: 200px;
+  }
+
+  .top-btn {
+    padding: 0.3rem 3.7rem;
   }
 
   .close-btn {
@@ -493,11 +493,20 @@ img.hover-shadow {
   #footer p {
     font-size: 14px;
   }
+
+  #mockup1,
+  .mockup-img {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 320px) {
   .top-container h1 {
     font-size: 1.3rem;
     line-height: 50px;
+  }
+
+  .left-showcase {
+    display: none;
   }
 }
