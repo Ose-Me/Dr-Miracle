@@ -80,12 +80,12 @@ $conn = null;
                         <ul class="navbar-nav ml-auto">
 
                             <li class="nav-item">
-                                <a class="nav-link top-link" href="./about.html">About
+                                <a class="nav-link top-link" href="#">About
                                     <!-- <span class="sr-only">(current)</span> -->
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link top-link" href="./contact.html">Contact</a>
+                                <a class="nav-link top-link" href="#">Contact</a>
                             </li>
                         </ul>
                         <a class="nav-link top-link pr-0" href="#girl"><button class="btn top-btn">Subscribe</button></a>
@@ -245,7 +245,7 @@ $conn = null;
         <div class="d-flex justify-content-end align-items-center" id="girl">
             <div class="pl-md-5 pl-3">
                 <p>Subcribe to get a notification when we go Live.</p>
-                <form class="form-inline" method="post" action="index.php">
+                <form class="form-inline justify-content-start" method="post" action="index.php">
 
                     <div class="form-group mr-sm-3">
                         <label for="email" class="sr-only">email</label>

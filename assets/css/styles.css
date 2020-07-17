@@ -472,6 +472,10 @@ img.hover-shadow {
     margin-bottom: 0.5rem;
   }
 
+  .subscribe-text {
+    text-align: center;
+  }
+
   .mySlides img {
     margin-top: 5%;
     width: 250px;
@@ -497,6 +501,10 @@ img.hover-shadow {
   #mockup1,
   .mockup-img {
     width: 100%;
+  }
+
+  .form-inline {
+    justify-content: center;
   }
 }
 
