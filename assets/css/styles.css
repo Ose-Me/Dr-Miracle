@@ -58,6 +58,10 @@ body {
   color: #6d6875;
 }
 
+.icon {
+  width: 90%;
+}
+
 .form-control {
   height: auto;
   padding: 0.4rem 0.85rem;
@@ -239,6 +243,10 @@ body {
 .mySlides {
   display: none;
   justify-content: center;
+}
+
+.mySlides img {
+  width: 300px;
 }
 
 /* Next & previous buttons */
@@ -452,6 +460,7 @@ img.hover-shadow {
   .form-control {
     font-size: 16px;
     margin-bottom: 0.7rem;
+    padding: 0.5rem 0.65rem;
   }
 
   #girl img {
@@ -460,6 +469,11 @@ img.hover-shadow {
 
   .form-group {
     margin-bottom: 0.5rem;
+  }
+
+  .mySlides img {
+    margin-top: 50px;
+    width: 250px;
   }
 }
 

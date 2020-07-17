@@ -106,10 +106,10 @@ $conn = null;
                             <div class="d-flex pb-3">
                                 <div>
                                     <img src="./assets/images/iphone-google-play-app-store-apple-mobile-apple-store-and-google-play-logo-png-clip-art-thumbnail 1.png"
-                                        alt=""></div>
-                                <div class="pl-3">
+                                        alt="andriod icon" class="icon"></div>
+                                <div class="pl-2">
                                     <img src="./assets/images/iphone-google-play-app-store-apple-mobile-apple-store-and-google-play-logo-png-clip-art-thumbnail 2.png"
-                                        alt=""></div>
+                                        alt="iphone icon" class="icon"></div>
                             </div>
                             <p class="pt-lg-4 pb-lg-2 subscribe-text">Subcribe to get a notifcation when we go live.</p>
 
@@ -146,7 +146,9 @@ $conn = null;
                 </div>
             </div>
             <div class="col-md-4 p-md-0 d-flex justify-content-center">
-                <img class="hover-shadow" data-aos="fade-left" src="./assets/images/mockup1.png" alt="app-screen"
+                <img class="hover-shadow" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" src="./assets/images/mockup1.png" alt="app-screen"
                     id="mockup1" onclick="openModal();currentSlide(1)">
             </div>
         </div>
@@ -165,7 +167,9 @@ $conn = null;
             <div class="d-md-flex img-column column-1">
                 <img class="mockup-img hover-shadow" data-aos="fade-right" src="./assets/images/mockup2.png"
                     alt="screen2" id="mockup2" onclick="openModal();currentSlide(2)">
-                <p class="mt-md-5 pt-5 pr-md-2 pl-md-5"><b> Dr. Miracle </b>will do a quick scan of
+                <p class="mt-md-5 pt-5 pr-md-2 pl-md-5" data-aos="fade-down"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"><b> Dr. Miracle </b>will do a quick scan of
                     your face and give analysis of your
                     face.</p>
             </div>
@@ -173,7 +177,9 @@ $conn = null;
             <div class="d-md-flex img-column column-2">
                 <img class="mockup-img hover-shadow" data-aos="fade-up" src="./assets/images/mockup3.png" alt="screen3"
                     id="mockup3" onclick="openModal();currentSlide(3)">
-                <p class="mt-md-5 pt-5 pr-md-2 pl-md-5"><b>Dr. Miracle</b> will now give you product
+                <p class="mt-md-5 pt-5 pr-md-2 pl-md-5" data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"><b>Dr. Miracle</b> will now give you product
                     recommendations for each ailment.</p>
             </div>
         </div>
@@ -189,23 +195,31 @@ $conn = null;
             </div>
 
             <div class="d-md-flex img-column column-3">
-                <p class="mt-md-5 pt-5 pl-2 d-md-block d-none">For every product recommendation,
+                <p class="mt-md-5 pt-5 pl-2 d-md-block d-none" data-aos="fade-down"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">For every product recommendation,
                     <b>Dr. Miracle</b> will redirect you to an online
                     store that has products.</p>
                 <img class="mockup-img hover-shadow" data-aos="fade-left" src="./assets/images/mockup4.png"
                     alt="screen2" id="mockup4" onclick="openModal();currentSlide(4)">
-                    <p class="mt-md-5 pt-5 pl-2 d-md-none d-block">For every product recommendation,
+                    <p class="mt-md-5 pt-5 pl-2 d-md-none d-block" data-aos="fade-down"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">For every product recommendation,
                     <b>Dr. Miracle</b> will redirect you to an online
                     store that has products.</p>
             </div>
 
             <div class="d-md-flex img-column column-4">
-                <p class="mt-md-5 pt-5 pl-2 d-md-block d-none"><b>Dr. Miracle</b> will also track the usage
+                <p class="mt-md-5 pt-5 pl-2 d-md-block d-none" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"><b>Dr. Miracle</b> will also track the usage
                     of every skincare product you register
                     into the App. A daily routine will be
                     designed for each product’s dosage.</p><img class="mockup-img hover-shadow" data-aos="fade-up"
                     src="./assets/images/mockup5.png" alt="screen3" id="mockup5" onclick="openModal();currentSlide(5)">
-                    <p class="mt-md-5 pt-5 pl-2 d-md-none d-block"><b>Dr. Miracle</b> will also track the usage
+                    <p class="mt-md-5 pt-5 pl-2 d-md-none d-block" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"><b>Dr. Miracle</b> will also track the usage
                     of every skincare product you register
                     into the App. A daily routine will be
                     designed for each product’s dosage.</p>
@@ -251,32 +265,32 @@ $conn = null;
 
             <div class="mySlides">
                 <div class="numbertext">1 / 6</div>
-                <img src="./assets/images/mockup1.png" style="width:320px">
+                <img src="./assets/images/mockup1.png">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">2 / 6</div>
-                <img src="./assets/images/mockup2.png" style="width:320px">
+                <img src="./assets/images/mockup2.png">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">3 / 6</div>
-                <img src="./assets/images/mockup3.png" style="width:320px">
+                <img src="./assets/images/mockup3.png">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">4 / 6</div>
-                <img src="./assets/images/mockup4.png" style="width:320px">
+                <img src="./assets/images/mockup4.png">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">5 / 6</div>
-                <img src="./assets/images/mockup5.png" style="width:320px">
+                <img src="./assets/images/mockup5.png">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">6 / 6</div>
-                <img src="./assets/images/mockup6.png" style="width:320px">
+                <img src="./assets/images/mockup6.png">
             </div>
 
 
