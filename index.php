@@ -48,7 +48,7 @@ $conn = null;
 <html>
 
 <head>
-    <title>Text animation</title>
+    <title>Dr.Miracle</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -165,16 +165,16 @@ $conn = null;
             <div class="d-md-flex img-column column-1">
                 <img class="mockup-img hover-shadow" data-aos="fade-right" src="./assets/images/mockup2.png"
                     alt="screen2" id="mockup2" onclick="openModal();currentSlide(2)">
-                <p class="mt-5 pt-5 pr-2"><b>Dr. Miracle</b> will do a quick scan of
-                    your face.</p>
+                <p class="mt-5 pt-5 pr-md-2 pl-md-5"><b> Dr. Miracle </b>will do a quick scan of
+                    your face and give analysis of your
+                    face.<p>
             </div>
 
             <div class="d-md-flex img-column column-2">
                 <img class="mockup-img hover-shadow" data-aos="fade-up" src="./assets/images/mockup3.png" alt="screen3"
                     id="mockup3" onclick="openModal();currentSlide(3)">
-                <p class="mt-5 pt-5 pr-2"><b>Dr. Miracle</b> gives you a diagnosis
-                    of your face with the degree of the
-                    skin ailment present.</p>
+                <p class="mt-5 pt-5 pr-md-2 pl-md-5"><b>Dr. Miracle</b> will now give you product
+                    recommendations for each ailment.</p>
             </div>
         </div>
     </div>
@@ -189,8 +189,9 @@ $conn = null;
             </div>
 
             <div class="d-md-flex img-column column-3">
-                <p class="mt-5 pt-5 pl-2"><b>Dr. Miracle</b> will now give you product
-                    recommendations for each ailment.</p>
+                <p class="mt-5 pt-5 pl-2">For every product recommendation,
+                    <b>Dr. Miracle</b> will redirect you to an online
+                    store that has products.</p>
                 <img class="mockup-img hover-shadow" data-aos="fade-left" src="./assets/images/mockup4.png"
                     alt="screen2" id="mockup4" onclick="openModal();currentSlide(4)">
             </div>
