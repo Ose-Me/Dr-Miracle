@@ -88,7 +88,7 @@ $conn = null;
                                 <a class="nav-link top-link" href="./contact.html">Contact</a>
                             </li>
                         </ul>
-                        <a class="nav-link top-link pr-0" href="#"><button class="btn top-btn">Subscribe</button></a>
+                        <a class="nav-link top-link pr-0" href="#girl"><button class="btn top-btn">Subscribe</button></a>
                     </div>
                 </div>
             </nav>
@@ -304,7 +304,7 @@ $conn = null;
 
     <!-- footer section -->
     <div class="pt-4 pb-2 d-flex justify-content-center" id="footer">
-        <p class="m-0">Brought to you by Ose & Ene</p>
+        <p class="m-0">Dr.Miracle 2020. All Rights Reserved. Terms and Privacy</p>
     </div>
 
 
