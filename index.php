@@ -167,7 +167,7 @@ $conn = null;
             <div class="d-md-flex img-column column-1">
                 <img class="mockup-img hover-shadow" data-aos="fade-right" src="./assets/images/mockup2.png"
                     alt="screen2" id="mockup2" onclick="openModal();currentSlide(2)">
-                <p class="mt-md-5 pt-5 pr-md-2 pl-md-5" data-aos="fade-down"
+                <p class="mt-md-5 py-5 pr-md-2 pl-md-5" data-aos="fade-down"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine"><b> Dr. Miracle </b>will do a quick scan of
                     your face and give analysis of your
@@ -177,7 +177,7 @@ $conn = null;
             <div class="d-md-flex img-column column-2">
                 <img class="mockup-img hover-shadow" data-aos="fade-up" src="./assets/images/mockup3.png" alt="screen3"
                     id="mockup3" onclick="openModal();currentSlide(3)">
-                <p class="mt-md-5 pt-5 pr-md-2 pl-md-5" data-aos="fade-left"
+                <p class="mt-md-5 py-5 pr-md-2 pl-md-5" data-aos="fade-left"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine"><b>Dr. Miracle</b> will now give you product
                     recommendations for each ailment.</p>
@@ -186,7 +186,7 @@ $conn = null;
     </div>
 
     <!-- third section -->
-    <div class="container-fluid pt-5 mt-md-5">
+    <div class="container-fluid pt-md-5 mt-md-5">
         <div id="third">
             <div class="color-box-2">
             </div>
@@ -195,14 +195,14 @@ $conn = null;
             </div>
 
             <div class="d-md-flex img-column column-3">
-                <p class="mt-md-5 pt-5 pl-2 d-md-block d-none" data-aos="fade-down"
+                <p class="mt-md-5 py-5 pl-2 d-md-block d-none" data-aos="fade-down"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">For every product recommendation,
                     <b>Dr. Miracle</b> will redirect you to an online
                     store that has products.</p>
                 <img class="mockup-img hover-shadow" data-aos="fade-left" src="./assets/images/mockup4.png"
                     alt="screen2" id="mockup4" onclick="openModal();currentSlide(4)">
-                    <p class="mt-md-5 pt-5 pl-2 d-md-none d-block" data-aos="fade-down"
+                    <p class="mt-md-5 py-5 pl-2 d-md-none d-block" data-aos="fade-down"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">For every product recommendation,
                     <b>Dr. Miracle</b> will redirect you to an online
@@ -210,14 +210,14 @@ $conn = null;
             </div>
 
             <div class="d-md-flex img-column column-4">
-                <p class="mt-md-5 pt-5 pl-2 d-md-block d-none" data-aos="fade-right"
+                <p class="mt-md-5 py-5 pl-2 d-md-block d-none" data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine"><b>Dr. Miracle</b> will also track the usage
                     of every skincare product you register
                     into the App. A daily routine will be
                     designed for each product’s dosage.</p><img class="mockup-img hover-shadow" data-aos="fade-up"
                     src="./assets/images/mockup5.png" alt="screen3" id="mockup5" onclick="openModal();currentSlide(5)">
-                    <p class="mt-md-5 pt-5 pl-2 d-md-none d-block" data-aos="fade-right"
+                    <p class="mt-md-5 py-5 pl-2 d-md-none d-block" data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine"><b>Dr. Miracle</b> will also track the usage
                     of every skincare product you register
@@ -230,7 +230,7 @@ $conn = null;
     <!-- fourth section -->
     <div class="container">
         <div id="fourth">
-            <div class="pt-5 d-flex flex-md-row flex-column img-column justify-content-end align-items-center">
+            <div class="pt-md-5 d-flex flex-md-row flex-column img-column justify-content-end align-items-center">
                 <img src="./assets/images/mockup6.png" alt="screen 6" class="mockup-img hover-shadow" id="mockup6"
                     data-aos="fade-right" onclick="openModal();currentSlide(6)">
                 <p class="py-md-0 py-5"><b>Dr. Miracle</b> provides a progress report for
