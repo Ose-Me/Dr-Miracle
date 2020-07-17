@@ -105,7 +105,7 @@ body {
 /* second section */
 #second,
 #third {
-  height: 1000px;
+  min-height: 1000px;
   position: relative;
 }
 
@@ -407,6 +407,15 @@ img.hover-shadow {
   .column-3,
   .column-4 {
     position: relative;
+    padding: 0 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .color-box,
+  .color-box-2 {
+    display: none;
   }
 
   .column-1 {
@@ -423,7 +432,6 @@ img.hover-shadow {
   }
 
   .column-4 {
-    position: absolute;
     top: 0;
     right: 0;
   }
@@ -444,5 +452,20 @@ img.hover-shadow {
   .form-control {
     font-size: 16px;
     margin-bottom: 0.7rem;
+  }
+
+  #girl img {
+    width: 100px;
+  }
+
+  .form-group {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .top-container h1 {
+    font-size: 1.3rem;
+    line-height: 50px;
   }
 }

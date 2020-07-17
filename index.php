@@ -137,7 +137,7 @@ $conn = null;
         <div class="row">
             <div class="col-md-8 d-flex align-items-center">
                 <div>
-                    <p class="pb-md-3 pt-md-3">Dr. Miracle will scan your face by taking a photo and then provide a
+                    <p class="pb-md-3 pt-3">Dr. Miracle will scan your face by taking a photo and then provide a
                         diagnosis
                         of the skin ailments present. Recommended products will then be prescibed for
                         each ailment present, along with a redirection to online stores where they can be
@@ -165,22 +165,22 @@ $conn = null;
             <div class="d-md-flex img-column column-1">
                 <img class="mockup-img hover-shadow" data-aos="fade-right" src="./assets/images/mockup2.png"
                     alt="screen2" id="mockup2" onclick="openModal();currentSlide(2)">
-                <p class="mt-5 pt-5 pr-md-2 pl-md-5"><b> Dr. Miracle </b>will do a quick scan of
+                <p class="mt-md-5 pt-5 pr-md-2 pl-md-5"><b> Dr. Miracle </b>will do a quick scan of
                     your face and give analysis of your
-                    face.<p>
+                    face.</p>
             </div>
 
             <div class="d-md-flex img-column column-2">
                 <img class="mockup-img hover-shadow" data-aos="fade-up" src="./assets/images/mockup3.png" alt="screen3"
                     id="mockup3" onclick="openModal();currentSlide(3)">
-                <p class="mt-5 pt-5 pr-md-2 pl-md-5"><b>Dr. Miracle</b> will now give you product
+                <p class="mt-md-5 pt-5 pr-md-2 pl-md-5"><b>Dr. Miracle</b> will now give you product
                     recommendations for each ailment.</p>
             </div>
         </div>
     </div>
 
     <!-- third section -->
-    <div class="container-fluid pt-5 mt-5">
+    <div class="container-fluid pt-5 mt-md-5">
         <div id="third">
             <div class="color-box-2">
             </div>
@@ -189,20 +189,26 @@ $conn = null;
             </div>
 
             <div class="d-md-flex img-column column-3">
-                <p class="mt-5 pt-5 pl-2">For every product recommendation,
+                <p class="mt-md-5 pt-5 pl-2 d-md-block d-none">For every product recommendation,
                     <b>Dr. Miracle</b> will redirect you to an online
                     store that has products.</p>
                 <img class="mockup-img hover-shadow" data-aos="fade-left" src="./assets/images/mockup4.png"
                     alt="screen2" id="mockup4" onclick="openModal();currentSlide(4)">
+                    <p class="mt-md-5 pt-5 pl-2 d-md-none d-block">For every product recommendation,
+                    <b>Dr. Miracle</b> will redirect you to an online
+                    store that has products.</p>
             </div>
 
             <div class="d-md-flex img-column column-4">
-                <p class="mt-5 pt-5 pl-2"><b>Dr. Miracle</b> will also track the usage
+                <p class="mt-md-5 pt-5 pl-2 d-md-block d-none"><b>Dr. Miracle</b> will also track the usage
                     of every skincare product you register
                     into the App. A daily routine will be
                     designed for each product’s dosage.</p><img class="mockup-img hover-shadow" data-aos="fade-up"
                     src="./assets/images/mockup5.png" alt="screen3" id="mockup5" onclick="openModal();currentSlide(5)">
-
+                    <p class="mt-md-5 pt-5 pl-2 d-md-none d-block"><b>Dr. Miracle</b> will also track the usage
+                    of every skincare product you register
+                    into the App. A daily routine will be
+                    designed for each product’s dosage.</p>
             </div>
         </div>
     </div>
@@ -210,10 +216,10 @@ $conn = null;
     <!-- fourth section -->
     <div class="container">
         <div id="fourth">
-            <div class="pt-5 d-flex img-column justify-content-end align-items-center">
+            <div class="pt-5 d-flex flex-md-row flex-column img-column justify-content-end align-items-center">
                 <img src="./assets/images/mockup6.png" alt="screen 6" class="mockup-img hover-shadow" id="mockup6"
                     data-aos="fade-right" onclick="openModal();currentSlide(6)">
-                <p><b>Dr. Miracle</b> provides a progress report for
+                <p class="py-md-0 py-5"><b>Dr. Miracle</b> provides a progress report for
                     the treatment of any ailment registered in
                     the app with the aid of illustration and graphs.</p>
             </div>
@@ -223,7 +229,7 @@ $conn = null;
     <!-- fifth section -->
     <div class="container-fluid">
         <div class="d-flex justify-content-end align-items-center" id="girl">
-            <div class="pl-md-5">
+            <div class="pl-md-5 pl-3">
                 <p>Subcribe to get a notification when we go Live.</p>
                 <form class="form-inline" method="post" action="index.php">
 
