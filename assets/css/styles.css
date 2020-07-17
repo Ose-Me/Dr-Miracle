@@ -15,6 +15,7 @@ body {
 
 .container-fluid {
   padding: 0;
+  overflow: hidden;
 }
 
 #main-container {
@@ -206,7 +207,6 @@ body {
 .modal {
   display: none;
   position: fixed;
-  padding-top: 20px;
   left: 0;
   top: 0;
   width: 100vw;
@@ -234,6 +234,7 @@ body {
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
+  z-index: 10;
 }
 
 .close-btn:hover,
@@ -380,7 +381,7 @@ img.hover-shadow {
   }
   #mockup1 {
     margin-top: 1rem;
-    width: 250px;
+    /* width: 250px; */
   }
 
   .top-btn {
@@ -394,9 +395,9 @@ img.hover-shadow {
     margin-bottom: 0.7rem;
   }
 
-  .mockup-img {
+  /* .mockup-img {
     width: 250px;
-  }
+  } */
 
   .color-box,
   .color-box-2 {
@@ -462,8 +463,8 @@ img.hover-shadow {
   }
 
   .form-control {
-    font-size: 16px;
     margin-bottom: 0.7rem;
+    width: 250px;
     padding: 0.5rem 0.65rem;
   }
 
@@ -475,19 +476,18 @@ img.hover-shadow {
     margin-bottom: 0.5rem;
   }
 
-  .modal {
-    padding-top: 100px;
-  }
-
   .mySlides img {
     margin-top: 5%;
+    width: 250px;
+  }
+
+  .btn:not(:disabled):not(.disabled) {
     width: 250px;
   }
 
   .close-btn {
     top: 10px;
     right: 5%;
-    font-size: 70px;
   }
 
   #footer p {

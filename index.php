@@ -33,7 +33,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST' && $_POST['email']) {
         $sql = "INSERT INTO subscribers (email)
         VALUES ('$email')";
         $conn->exec($sql);
-        $success ="New record created successfully";
+        $success ='You have sucessfully subscribed';
     } 
     catch(PDOException $e) {
         $error= $sql . "<br>" . $e->getMessage();
@@ -303,8 +303,8 @@ $conn = null;
 
 
     <!-- footer section -->
-    <div class="pt-4 pb-2 d-flex justify-content-center" id="footer">
-        <p class="m-0">Dr.Miracle 2020. All Rights Reserved. Terms and Privacy</p>
+    <div class="pt-4 pb-2 d-flex justify-content-center text-center" id="footer">
+        <p class="m-0 px-3">Dr.Miracle 2020. All Rights Reserved. Terms and Privacy</p>
     </div>
 
 
